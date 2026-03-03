@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      width: 280px;
+      margin: 10px;
+      background: #f8fafc;
+    }
+
+    h3 {
+      margin-top: 0;
+      text-align: center;
+      color: #111827;
+    }
+
+    #list {
+      list-style: none;
+      padding: 0;
+      max-height: 350px;
+      overflow-y: auto;
+    }
+
+    .query-item {
+      padding: 8px 10px;
+      margin-bottom: 6px;
+      background: white;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 13px;
+      border: 1px solid #e5e7eb;
+      transition: all 0.15s ease;
+    }
+
+    .query-item:hover {
+      background: #eef2ff;
+      border-color: #6366f1;
+      transform: translateY(-1px);
+    }
+  </style>
+</head>
+
+<body>
+  <h3> Your Queries</h3>
+  <ul id="list"></ul>
+  <script src="popup.js"></script>
+</body>
+</html>
